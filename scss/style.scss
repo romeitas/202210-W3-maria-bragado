@@ -1,0 +1,36 @@
+@use 'variables';
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: variables.$font-stack;
+    min-height: 100vh;
+    width: 481px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-top: 34px;
+    margin-bottom: 26px;
+
+    nav {
+        position: absolute;
+        width: 28px;
+        height: 18px;
+        left: 319px;
+        top: 39px;
+    }
+}
+
+// header::after {
+//     content: '';
+//     display: block;
+//     margin-bottom: 1px solid #bca4ff;
+//     margin: 1rem auto;
+// }
