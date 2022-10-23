@@ -18,3 +18,6 @@ Hay que incluir los hooks adjuntos commit-msg y pre-push:
 Instalar husky con el método automático de instalación.
 Añadir los dos hooks.
 Hay que desplegar la web a Netlify.
+
+Trabajo que se realiza en equipo con otros programadores
+Trabajar en entorno conjunto
