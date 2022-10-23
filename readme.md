@@ -20,4 +20,4 @@ Añadir los dos hooks.
 Hay que desplegar la web a Netlify.
 
 Trabajo que se realiza en equipo con otros programadores
-Trabajar en entorno conjunto
+Trabajar en entorno conjunto con Pull Request
