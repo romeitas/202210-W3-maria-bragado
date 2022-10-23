@@ -1,15 +1,25 @@
 {
-  "name": "CSS",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "María Bragado",
-  "license": "ISC",
-  "prettier": {
-    "singleQuote": true
-  }
+    "name": "css",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "commit-msg": "npm test",
+        "pre-push": "npm test",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "sass scss:css -w",
+        "prepare": "husky install"
+    },
+    "keywords": [],
+    "author": "María Bragado",
+    "license": "ISC",
+    "prettier": {
+        "singleQuote": true
+    },
+    "dependencies": {
+        "sass": "^1.55.0"
+    },
+    "devDependencies": {
+        "husky": "^8.0.1"
+    }
 }
