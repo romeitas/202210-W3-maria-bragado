@@ -1,29 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins");
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 57 |         background-color: variables.$grey-background;
+ *    |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *    '
+ *   scss\style.scss 57:27  root stylesheet */
 
-body {
-  font-family: Poppins, sans-serif;
-  min-height: 100vh;
-  width: 481px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 57 \2502          background-color: variables.$grey-background;\a    \2502                            ^^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\style.scss 57:27  root stylesheet";
 }
-
-header {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 45px;
-  margin-top: 34px;
-  margin-bottom: 26px;
-}
-header nav {
-  position: absolute;
-  width: 28px;
-  height: 18px;
-  left: 319px;
-  top: 39px;
-}
-
-/*# sourceMappingURL=style.css.map */

@@ -28,9 +28,41 @@ header {
     }
 }
 
-// header::after {
-//     content: '';
-//     display: block;
-//     margin-bottom: 1px solid #bca4ff;
-//     margin: 1rem auto;
-// }
+.block1 {
+    ::before {
+        content: '';
+    }
+    height: 515px;
+    margin-top: 77px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    .block1__title {
+        display: flex;
+        font-family: 'Poppins';
+        width: 421px;
+        height: 87px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 1px;
+    }
+
+    .block1__selector-block {
+        display: flex;
+        margin-bottom: 25px;
+        width: 421px;
+        height: 56px;
+        border-radius: 16px;
+        background-color: variables.$grey-background;
+    }
+
+    .block1__search-block {
+        width: 421px;
+        height: 55px;
+        border-radius: 40px;
+        background-color: variables.$pink-background;
+        border: variables.$pink-background;
+        color: white;
+    }
+}
