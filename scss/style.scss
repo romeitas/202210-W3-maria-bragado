@@ -28,9 +28,13 @@ header {
     }
 }
 
-// header::after {
-//     content: '';
-//     display: block;
-//     margin-bottom: 1px solid #bca4ff;
-//     margin: 1rem auto;
-// }
+.block1 {
+    height: 515px;
+    background-color: blue;
+}
+
+p {
+    font-weight: 700;
+    color: black;
+    margin-top: 77px;
+}
