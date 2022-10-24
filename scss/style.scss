@@ -23,18 +23,31 @@ header {
         position: absolute;
         width: 28px;
         height: 18px;
-        left: 319px;
+        left: 386px;
         top: 39px;
     }
 }
 
-.block1 {
-    height: 515px;
-    background-color: blue;
-}
+// header::after {
+//     content: '';
+//     display: block;
+//     margin-bottom: 1px solid #bca4ff;
+//     margin: 1rem auto;
+// }
 
-p {
-    font-weight: 700;
-    color: black;
-    margin-top: 77px;
+.block2 {
+    width: 420px;
+    height: 614px;
+    border-radius: 20px;
+    background-color: #2a00a2;
+    margin-left: 31px;
+
+    .block2__title {
+        letter-spacing: 0.75px;
+        color: #bca4ff;
+        font-weight: 600;
+        font-size: 24px;
+        margin-left: 40px;
+        padding-top: 20px;
+    }
 }

@@ -22,8 +22,24 @@ header nav {
   position: absolute;
   width: 28px;
   height: 18px;
-  left: 319px;
+  left: 386px;
   top: 39px;
+}
+
+.block2 {
+  width: 420px;
+  height: 614px;
+  border-radius: 20px;
+  background-color: #2a00a2;
+  margin-left: 31px;
+}
+.block2 .block2__title {
+  letter-spacing: 0.75px;
+  color: #bca4ff;
+  font-weight: 600;
+  font-size: 24px;
+  margin-left: 40px;
+  padding-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
