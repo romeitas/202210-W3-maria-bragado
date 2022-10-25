@@ -40,6 +40,39 @@ header nav {
   font-size: 24px;
   margin-left: 40px;
   padding-top: 20px;
+  margin-bottom: 20px;
+}
+.block2 .block2__subtitle {
+  letter-spacing: 0.75px;
+  color: #f3efff;
+  height: 28px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+.block2 .block2__selector-block {
+  border-radius: 15px;
+  background-color: #eff0f7;
+  width: 352px;
+  height: 59px;
+  margin-left: 40px;
+  font-family: poppins;
+  letter-spacing: 0.75px;
+  font-weight: 400;
+  border: none;
+}
+.block2 .block2__search-block {
+  border-radius: 40px;
+  background-color: #ed2e7e;
+  width: 347px;
+  height: 64px;
+  margin-left: 40px;
+  font-family: poppins;
+  letter-spacing: 0.75px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #f7f7fc;
+  margin-top: 27px;
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */
