@@ -23,18 +23,90 @@ header {
         position: absolute;
         width: 28px;
         height: 18px;
-        left: 319px;
+        left: 386px;
         top: 39px;
     }
 }
 
-.block1 {
-    height: 515px;
-    background-color: blue;
-}
+.search-block2 {
+    content: '';
+    display: block;
+    border-top: 1px solid #d9dbe9;
+    margin: 1rem auto;
 
-p {
-    font-weight: 700;
-    color: black;
-    margin-top: 77px;
+    .search-block2__box {
+        width: 420px;
+        height: 614px;
+        border-radius: 20px;
+        background-color: #2a00a2;
+        margin-left: 31px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        .search-block2__title {
+            letter-spacing: 0.75px;
+            color: #bca4ff;
+            font-weight: 600;
+            font-size: 24px;
+            margin-left: 40px;
+            padding-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .search-block2__subtitle {
+            letter-spacing: 0.75px;
+            color: #f3efff;
+            height: 28px;
+            margin-left: 40px;
+            margin-top: 15px;
+        }
+
+        .search-block2__search-block {
+            border-radius: 40px;
+            background-color: #ed2e7e;
+            width: 347px;
+            height: 64px;
+            margin-left: 40px;
+            font-family: poppins;
+            letter-spacing: 0.75px;
+            font-weight: 600;
+            font-size: 16px;
+            color: #f7f7fc;
+            margin-top: 27px;
+            border: none;
+        }
+
+        .search-block2__first-search,
+        .search-block2__second-search,
+        .search-block2__third-search,
+        .search-block2__fourth-search {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            border-radius: 15px;
+            background-color: #eff0f7;
+            width: 352px;
+            height: 59px;
+            margin-left: 40px;
+            border: none;
+            .search-block2__selector-block {
+                font-family: poppins;
+                letter-spacing: 0.75px;
+                font-weight: 550;
+                margin-left: 5%;
+                border: none;
+                background-color: #eff0f7;
+            }
+            .search-block2__search--icon,
+            .search-block2__calendar--icon,
+            .search-block2__calendar2--icon,
+            .search-block2__person--icon {
+                margin-left: 5%;
+            }
+
+            .search-block2__select--icon {
+                margin-left: 28%;
+            }
+        }
+    }
 }
