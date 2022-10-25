@@ -55,6 +55,7 @@ header nav {
   width: 421px;
   height: 56px;
   margin-bottom: 25px;
+  border: 0.2px solid #14142b;
   background-color: #eff0f7;
 }
 .search-block1 .arrowforward {
