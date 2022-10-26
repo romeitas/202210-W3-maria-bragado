@@ -175,8 +175,17 @@ header {
     margin: 1rem auto;
     margin-top: 20px;
 }
+
+.card-block4 {
+    display: block;
+    height: 550px;
+    border-bottom: 1px solid #d9dbe9;
+    margin: 1rem auto;
+    margin-top: 20px;
+}
 .search-block3__text--general,
-.search-block5__text--general {
+.search-block5__text--general,
+.card-block4__text--general {
     display: block;
     margin-top: 16px;
 }
@@ -189,11 +198,17 @@ header {
 }
 
 .search-block3__image--scroll,
-.search-block5__image--scroll {
+.search-block5__image--scroll,
+.card-block4__images {
     display: flex;
 }
+
+.card-block4__images {
+    margin-left: 30px;
+}
 .search-block3__image,
-.search-block5__image {
+.search-block5__image,
+.card-block4__image {
     display: flex;
     flex-direction: row;
     width: 272px;
@@ -202,26 +217,30 @@ header {
 }
 
 .search-block3__rating,
-.search-block5__rating {
+.search-block5__rating,
+.card-block4__rating {
     display: flex;
     margin-left: 30px;
     margin-top: 22px;
 }
 
 .search-block3__rating--star,
-.search-block5__rating--star {
+.search-block5__rating--star,
+.card-block4__rating--star {
     margin-right: 8px;
 }
 
 .search-block3__text,
-.search-block5__text {
+.search-block5__text,
+.card-block4__text--general {
     height: 180px;
     width: 478px;
     margin-left: 32px;
 }
 
 .search-block3__subtitle,
-.search-block5__subtitle {
+.search-block5__subtitle,
+.card-block4__subtitle {
     font-weight: 600;
     font-size: 24px;
     height: 33px;
@@ -230,16 +249,22 @@ header {
 }
 
 .search-block3__description,
-.search-block5__description {
+.search-block5__description,
+.card-block4__description {
     font-size: 16px;
     color: variables.$grey-text;
     margin-top: 3px;
 }
 
 .search-block3__location,
-.search-block5__location {
+.search-block5__location,
+.card-block4__location {
     display: flex;
     justify-content: flex-start;
+}
+
+.card-block4__location {
+    margin-left: 10px;
 }
 
 .search-block3__location--icon,
@@ -247,7 +272,8 @@ header {
     margin-right: 5px;
 }
 .search-block3__location,
-.search-block5__location {
+.search-block5__location,
+.card-block4__location {
     font-size: 16px;
     color: variables.$blue-text;
     margin-top: 9px;
@@ -255,7 +281,8 @@ header {
 }
 
 .search-block3__submit--button,
-.search-block5__submit--button {
+.search-block5__submit--button,
+.card-block4__submit__button {
     font-family: variables.$font-stack;
     width: 172px;
     height: 40px;
@@ -268,4 +295,9 @@ header {
     border: 2px solid variables.$grey-line;
     color: variables.$blue-text;
     font-weight: bolder;
+}
+
+.card-block4__submit__button {
+    margin-bottom: 0px;
+    margin-top: 15px;
 }
