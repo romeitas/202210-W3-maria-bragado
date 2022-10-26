@@ -301,3 +301,51 @@ header {
     margin-bottom: 0px;
     margin-top: 15px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .footer__description--logo {
+        display: block;
+        margin-left: 138px;
+        margin-top: 34px;
+        margin-bottom: 24px;
+    }
+    .footer__company--description,
+    .footer__copyright {
+        font-family: variables.$font-stack;
+        font-weight: 400;
+        color: variables.$grey-text;
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align: center;
+    }
+}
+
+.footer__copyright {
+    margin-top: 12px;
+    margin-bottom: 50px;
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .footer__tittle {
+        font-weight: 600;
+        font-size: 20px;
+        color: variables.$grey-text-button;
+        margin-bottom: 23px;
+        font-weight: bolder;
+    }
+    .footer__address {
+        color: variables.$grey-footer;
+        margin-top: 18px;
+        font-size: 16px;
+    }
+    .footer__phone {
+        margin-top: 25px;
+        font-size: 16px;
+    }
+}
