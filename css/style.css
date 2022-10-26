@@ -183,6 +183,10 @@ header nav {
   margin-top: 20px;
 }
 
+.search-block5 {
+  height: 540px;
+}
+
 .card-block4 {
   display: block;
   height: 550px;
@@ -251,7 +255,7 @@ header nav {
 .search-block3__subtitle,
 .search-block5__subtitle,
 .card-block4__subtitle {
-  font-weight: 600;
+  font-weight: 550;
   font-size: 24px;
   height: 33px;
   color: #5f2eea;
@@ -282,6 +286,10 @@ header nav {
   margin-right: 5px;
 }
 
+.search-block5__location--icon {
+  margin-top: 9px;
+}
+
 .search-block3__location,
 .search-block5__location,
 .card-block4__location {
@@ -306,6 +314,7 @@ header nav {
   border: 2px solid #d9dbe9;
   color: #5f2eea;
   font-weight: bolder;
+  margin-top: 15px;
 }
 
 .card-block4__submit__button {
