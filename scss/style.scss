@@ -445,11 +445,11 @@ header {
     }
 }
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 1300px) {
     body {
         font-family: variables.$font-stack;
         min-height: 100vh;
-        width: 100%;
+        width: 1400px;
     }
     header {
         margin-left: 105px;
@@ -459,7 +459,7 @@ header {
         nav {
             position: absolute;
             height: 18px;
-            left: 60%;
+            left: 82%;
             top: 39px;
         }
     }
@@ -478,7 +478,7 @@ header {
         display: flex;
         flex-direction: row;
         margin-left: 125px;
-        width: 850px;
+        width: 88%;
 
         .search-block1__container {
             margin-right: 10px;
@@ -504,10 +504,10 @@ header {
         }
 
         .arrowforward {
-            margin-left: 5%;
+            margin-left: 32%;
         }
         .arrowforward1 {
-            margin-left: 35%;
+            margin-left: 55%;
         }
     }
     .search-properties__block {
@@ -520,16 +520,65 @@ header {
         width: 100%;
         align-items: flex-start;
         .search-propertis__display {
-            width: 65%;
+            width: 75%;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
+            margin-left: 5px;
         }
         .search-block2 {
             content: '';
             display: block;
             border-top: none;
             width: 35%;
+            margin-top: 0px;
+            margin-left: 95px;
+        }
+        .card-block3 {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            height: 350px;
+
+            .card-block3__title {
+                position: absolute;
+                margin-top: 20px;
+                margin-left: 15px;
+                margin-bottom: 15px;
+                margin-right: 0px;
+                height: 34px;
+            }
+
+            img + .card-block3__image,
+            img + .card-block4__image,
+            img + .card-block5__image {
+                display: none;
+            }
+
+            .card-block3__image,
+            .card-block4__image,
+            .card-block5__image {
+                align-self: flex-start;
+                justify-content: flex-start;
+                margin-left: 15px;
+                margin-top: 80px;
+            }
+
+            .card-block3__rating {
+                position: absolute;
+                margin-top: 80px;
+                margin-left: 315px;
+            }
+
+            .card-block3__text--general {
+                margin-top: 130px;
+                width: 50%;
+            }
+            .card-block3__submit--button {
+                position: absolute;
+                margin-left: 300px;
+                margin-top: -240px;
+            }
         }
     }
     .footer {
