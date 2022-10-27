@@ -168,11 +168,17 @@ header {
     }
 }
 
-.card-block3,
-.card-block5 {
+.card-block3 {
     display: block;
     height: 600px;
     border-bottom: 1px solid #d9dbe9;
+    margin: 1rem auto;
+    margin-top: 20px;
+}
+
+.card-block5 {
+    display: block;
+    height: 600px;
     margin: 1rem auto;
     margin-top: 20px;
 }
