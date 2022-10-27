@@ -516,6 +516,59 @@ header nav {
   .search_block1_media .arrowforward1 {
     margin-left: 35%;
   }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 140px;
+    width: 257px;
+  }
+  .footer .footer__description--logo {
+    margin-left: 24px;
+  }
+  .footer .footer__tittle {
+    font-weight: 600;
+    font-size: 20px;
+    color: #14142b;
+    font-weight: bolder;
+  }
+  .footer .footer__company--description,
+.footer .footer__copyright {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    color: #4e4b66;
+    text-align: left;
+    width: 257px;
+  }
+  .footer .footer__copyright {
+    margin-top: 40px;
+    font-weight: bolder;
+  }
+  .footer .footer__contact {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .footer .footer__contact .footer__tittle {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 34px;
+    color: #14142b;
+    font-weight: bolder;
+  }
+  .footer .footer__contact .footer__address {
+    color: #6e7191;
+    margin-top: 18px;
+    font-size: 16px;
+  }
+  .footer .footer__contact .footer__email {
+    color: #5f2eea;
+    font-weight: bold;
+  }
+  .footer .footer__contact .footer__phone {
+    margin-top: 25px;
+    font-size: 16px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
