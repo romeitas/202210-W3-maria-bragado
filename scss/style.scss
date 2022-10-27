@@ -42,7 +42,6 @@ header {
         display: flex;
         font-family: 'Poppins';
         font-style: normal;
-        width: 421px;
         height: 87px;
         font-weight: 700;
         font-size: 24px;
@@ -51,22 +50,24 @@ header {
         text-align: left;
     }
 
-    .search-block1__container {
+    .search-block1__container,
+    .search-block1__container1 {
         display: flex;
         align-items: center;
         border-radius: 16px;
-        width: 421px;
         height: 56px;
         margin-bottom: 25px;
         border: 0.2px solid variables.$grey-text-button;
         background-color: variables.$grey-background;
     }
-    .arrowforward {
+    .arrowforward,
+    .arrowforward1 {
         display: inline-block;
         margin-left: 47%;
     }
 
-    .search-block1__input {
+    .search-block1__input,
+    .search-block1__input1 {
         font-family: 'Poppins';
         display: flex;
         border: none;
@@ -435,5 +436,72 @@ header {
         width: 451px;
         height: 463.06px;
         margin-bottom: 30px;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    body {
+        font-family: variables.$font-stack;
+        min-height: 100vh;
+        width: 100%;
+    }
+    header {
+        margin-left: 105px;
+        .header__menu--logo {
+            margin-right: 80%;
+        }
+        nav {
+            position: absolute;
+            height: 18px;
+            left: 60%;
+            top: 39px;
+        }
+    }
+    .search-block1 {
+        content: '';
+        display: block;
+        border-top: 1px solid #d9dbe9;
+        margin: 1rem auto;
+        height: 280px;
+    }
+    .search-block1__title {
+        margin-left: 125px;
+        width: 50%;
+    }
+    .search_block1_media {
+        display: flex;
+        flex-direction: row;
+        margin-left: 125px;
+        width: 850px;
+
+        .search-block1__container {
+            margin-right: 10px;
+            width: 23%;
+            height: 55px;
+        }
+        .search-block1__container1 {
+            margin-right: 10px;
+            width: 38%;
+            height: 55px;
+        }
+        .search-block1__input__pink {
+            width: 16%;
+            height: 55px;
+        }
+        .search-block1__input {
+            width: 160px;
+            padding-left: 10px;
+        }
+        .search-block1__input1 {
+            width: 180px;
+            padding-left: 10px;
+        }
+
+        .arrowforward {
+            margin-left: 5%;
+        }
+        .arrowforward1 {
+            margin-left: 35%;
+        }
     }
 }
