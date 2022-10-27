@@ -437,3 +437,37 @@ header {
         margin-bottom: 30px;
     }
 }
+
+@media all and (min-width: 1000px) {
+    body {
+        font-family: variables.$font-stack;
+        width: 100%;
+    }
+    header {
+        align-content: stretch;
+        margin-left: 135px;
+        .header__menu--logo {
+            margin-right: 80%;
+        }
+        nav {
+            position: absolute;
+            width: 28px;
+            height: 18px;
+            left: 55%;
+            top: 39px;
+        }
+    }
+
+    .search-block1 {
+        content: '';
+        display: block;
+        border-top: 1px solid #d9dbe9;
+        margin: 1rem auto;
+        height: 515px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .search-block1__container {
+    }
+}
